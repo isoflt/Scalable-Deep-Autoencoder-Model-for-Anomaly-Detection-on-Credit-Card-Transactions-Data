@@ -1,8 +1,7 @@
 pandas
+tensorflow-macos
 keras
 flask
 gunicorn
 numpy
-tensorflow-macos
-tensorflow-metal
 sklearn
