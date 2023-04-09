@@ -1,5 +1,6 @@
 pandas
 tensorflow-macos
+tensorflow-metal
 keras
 flask
 gunicorn
