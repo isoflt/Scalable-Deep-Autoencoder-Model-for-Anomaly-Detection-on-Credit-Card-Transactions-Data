@@ -1,0 +1,8 @@
+pandas
+flask
+gunicorn
+numpy
+tensorflow-macos
+tensorflow-metal
+keras
+sklearn
