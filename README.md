@@ -25,3 +25,6 @@ The goal was to build a scalable solution, and building an API endpoint in Pytho
 
 ## Running the Program
 The source directory (src) contains the `Engine.py` file which is the main entry point into the code. `ML_Pipeline` contains all the auxiliary files, each one run accordingly to what is selected in the Engine. Roughly, there are 3 components to the project: `input`, `output`, and `src`. The `input` folder contains the data, the `output` folder contains the model and other model outputs to be used for deployment, and `src` contains all the source/code files for the program, including the machine learning pipeline. The `lib` folder contains a notebook (`Deep-Autoencoder.ipynb`) exploring the dataset, and more importantly, the `Model_Api.ipynb` notebook for accessing the API endpoint from the client side.
+
+
+*Just a note: The `requirements.txt` file contains two Tensorflow packages: tensorflow-macos and tensorflow-metal. tensorflow-macos specifically is only required if you have an Apple Silicon Mac, otherwise vanilla tensorflow will be fine.*
